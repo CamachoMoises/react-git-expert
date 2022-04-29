@@ -1,15 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 
 
 import GifExpertApp from './GifExpertApp.js'
 import './index.css';
 
+const divRoot= document.querySelector('#app');
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
- 
-    <GifExpertApp />
 
-);
+ReactDOM.render(<GifExpertApp />, divRoot);

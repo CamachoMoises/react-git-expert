@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in AddCategory component should show the component snapshot  1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <h2>
+     Add Category 
+     
+  </h2>
+  <p>
+     
+     
+  </p>
+  <input
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</form>
+`;
